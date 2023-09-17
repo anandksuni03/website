@@ -1,0 +1,203 @@
+/* Reset some default styles */
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global Styles */
+  
+  body {
+    font-family: system-ui;
+    line-height: 1.6;
+    font-size: large;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header Styles */
+  .main-head{
+    text-align: left;
+  }
+  .header {
+    background-image: url("backgrond_1.jpg");
+    color: #fff;
+    background-size: cover; /* Cover the entire header with the background image */
+    background-position: center;
+    padding-bottom: 45px;
+    padding-top:  25px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin-right: 20px;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+ 
+  .content-section {
+    margin-bottom: 40px;
+    
+  }
+  .about_img{
+    max-width: 150px; /* Set the maximum width of the logo */
+    height: auto; /* Let the height adjust proportionally */
+    margin-right: 10px; /* Add some spacing between the logo and the heading */
+  }
+  .section-header{
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+
+
+
+
+.image-grid1{
+    width:350px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    
+}
+
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .image {
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  
+  .main-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .image {
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative; /* Added for positioning */
+    transition: transform 0.3s ease; /* Added for smooth animation */
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  
+  /* Hover Animation */
+  .image:hover {
+    transform: scale(1.05); /* Increase size slightly on hover */
+    z-index: 1; /* Bring the hovered image to the front */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  /* ... (existing styles) ... */
+
+/* ... (existing styles) ... */
+
+/* Adjust grid layout for smaller screens */
+@media (max-width: 768px) {
+    .image-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  .image {
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+    transition: transform 0.3s ease;
+    padding-bottom: 5px;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  
+  .image:hover {
+    transform: scale(1.05);
+    z-index: 1;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ... (remaining styles) ... */
+  
+  
+  
+
+
+  .footer-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-nav li {
+    margin: 0 10px;
+  }
+  
+  .footer-nav img {
+    width: 20px;
+    height: 20px;
+  }
+  .main-footer {
+    background-image: url("backgrond_1.jpg");
+    background-size: cover; 
+    background-position: center;
+    color: #fff;
+    padding: 45px;   /* Increase the padding to increase footer size */
+    text-align: center;
+  }
+  .contact{
+    padding-top: 40px;
+  }
+  .contact-data{
+    padding-top: 20px;
+  }
+  a {
+    color: #337ab7; /* Change the color to your preferred link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Hover effect for anchor links */
+  a:hover {
+    color: #23527c; /* Change the hover color */
+    text-decoration: underline; /* Add underline on hover if needed */
+  }
+  .logo {
+    max-width: 100px; /* Set the maximum width of the logo */
+    height: auto; /* Let the height adjust proportionally */
+    margin-right: 10px; /* Add some spacing between the logo and the heading */
+  }

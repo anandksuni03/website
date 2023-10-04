@@ -204,33 +204,6 @@ body, h1, h2, h3, p {
     margin-right: 10px; /* Add some spacing between the logo and the heading */
   }
 
-.my-button {
-            background: linear-gradient(to top right, #ed4123, #e1216a);
-            color: #ffea47;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 10px;
-            cursor: pointer;
-            text-decoration: none;
-            font-size: 18px;
-        }
-
-        /* On hover, change the button color */
-        .my-button:hover {
-            background: linear-gradient(to bottom, #941545, #ab3520);
-        }
-.container1 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 10vh;
-}
-.container2 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            
-}
   .newimage {
     max-width:450px; /* Set the maximum width to fit its container */
     height: 450px; /* Allow the height to adjust proportionally */

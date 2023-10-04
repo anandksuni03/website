@@ -225,3 +225,9 @@ body, h1, h2, h3, p {
             align-items: center;
             height: 10vh;
 }
+.container2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+}

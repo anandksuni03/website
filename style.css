@@ -209,10 +209,10 @@ body, h1, h2, h3, p {
             color: #ffea47;
             padding: 30px 50px;
             border: none;
-            border-radius: 8px;
+            border-radius: 10px;
             cursor: pointer;
             text-decoration: none;
-            font-size: 16px;
+            font-size: 18px;
         }
 
         /* On hover, change the button color */

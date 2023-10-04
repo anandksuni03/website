@@ -231,3 +231,50 @@ body, h1, h2, h3, p {
             align-items: center;
             
 }
+  .newimage {
+    max-width:450px; /* Set the maximum width to fit its container */
+    height: 450px; /* Allow the height to adjust proportionally */
+    margin-bottom: 20px;
+  }
+  
+  /* Style the main container */
+.newcontainer {
+  background-color: #f4f4f4; /* Background color for the container */
+  padding: 20px; /* Add some padding to the container */
+  border-radius: 10px; /* Rounded corners for the container */
+}
+
+/* Style the strong (bold) text within the container */
+.newcontainer strong {
+  font-weight: bold;
+  color: #0077b6; /* Text color for strong elements */
+}
+
+
+
+
+
+/* Style the button */
+/* Style the new container */
+.newcontainer1 {
+  text-align: center; /* Center-align the button container */
+  
+  margin-bottom: 20px;
+}
+
+/* Style the new button */
+.newcontainer1 .my-button {
+  display: inline-block; /* Make the button inline */
+  background-color: #0077b6; /* Button background color */
+  color: #fff; /* Button text color */
+  text-decoration: none; /* Remove underline from the link */
+  border-radius: 5px; /* Rounded corners for the button */
+  padding: 10px 20px; /* Add padding to the button */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Style the new button on hover */
+.newcontainer1 .my-button:hover {
+  background-color: #005a8d; /* Button background color on hover */
+}
+

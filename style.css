@@ -36,6 +36,8 @@ body, h1, h2, h3, p {
     list-style: none;
     display: flex;
   }
+
+
   
   .navbar ul li {
     margin-right: 20px;
@@ -201,3 +203,19 @@ body, h1, h2, h3, p {
     height: auto; /* Let the height adjust proportionally */
     margin-right: 10px; /* Add some spacing between the logo and the heading */
   }
+
+.my-button {
+            background-color: #3498db;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        /* On hover, change the button color */
+        .my-button:hover {
+            background-color: #2980b9;
+        }

@@ -219,3 +219,8 @@ body, h1, h2, h3, p {
         .my-button:hover {
             background: linear-gradient(to bottom, #941545, #ab3520);
         }
+.container1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;

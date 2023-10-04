@@ -205,7 +205,7 @@ body, h1, h2, h3, p {
   }
 
 .my-button {
-            background-image: linear-gradient(to top right, #ed4123, #e1216a);
+            background: linear-gradient(to top right, #ed4123, #e1216a);
             color: #ffea47;
             padding: 10px 20px;
             border: none;
@@ -217,5 +217,5 @@ body, h1, h2, h3, p {
 
         /* On hover, change the button color */
         .my-button:hover {
-            background-image: linear-gradient(to bottom, #941545, #ab3520);
+            background: linear-gradient(to bottom, #941545, #ab3520);
         }

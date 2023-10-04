@@ -207,7 +207,7 @@ body, h1, h2, h3, p {
 .my-button {
             background: linear-gradient(to top right, #ed4123, #e1216a);
             color: #ffea47;
-            padding: 30px 50px;
+            padding: 10px 50px;
             border: none;
             border-radius: 10px;
             cursor: pointer;
